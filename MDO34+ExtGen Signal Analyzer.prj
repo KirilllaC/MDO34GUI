@@ -1,15 +1,16 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="2492118622" file="C:\Users\NanoPC\Documents\GitHub\MDO34GUI\MDO34+AWG Signal Analyzer.prj" location="C:\Users\NanoPC\Documents\GitHub\MDO34GUI" name="MDO34+AWG Signal Analyzer" target="target.mlapps" target-name="Package App">
-    <param.appname>MDO34+AWG Signal Analyzer</param.appname>
-    <param.authnamewatermark>Erik Cheever adjusted by Kirill</param.authnamewatermark>
+  <configuration build-checksum="458598251" file="C:\Users\NanoPC\Documents\GitHub\MDO34GUI\MDO34+ExtGen Signal Analyzer.prj" location="C:\Users\NanoPC\Documents\GitHub\MDO34GUI" name="MDO34+ExtGen Signal Analyzer" target="target.mlapps" target-name="Package App">
+    <param.appname>MDO34+ExtGen Signal Analyzer</param.appname>
+    <param.authnamewatermark>Kirill Titov based on Erik Cheever example</param.authnamewatermark>
     <param.email />
     <param.company>Roukes Group</param.company>
     <param.icon />
     <param.icons />
-    <param.summary>A MATLAB App that uses the MDO34's AFG to perform frequency domain analysis of circuits.</param.summary>
-    <param.description>See http://www.swarthmore.edu/NatSci/echeeve1/Ref/MDO34Gui/</param.description>
-    <param.screenshot>C:\Users\NanoPC\AppData\Local\Temp\tp63c22727_bf98_4d09_972c_e47f05a14026.png</param.screenshot>
-    <param.version>1.0</param.version>
+    <param.summary>A MATLAB App that uses the MDO34 and External Generator to perform frequency domain analysis of circuits.</param.summary>
+    <param.description>See the code here https://github.com/KirilllaC/MDO34GUI
+See initial description here http://www.swarthmore.edu/NatSci/echeeve1/Ref/MDO34Gui/</param.description>
+    <param.screenshot>C:\Users\NanoPC\AppData\Local\Temp\tpd3d5d4a1_de6b_4d93_90f2_7f56861ebea2.png</param.screenshot>
+    <param.version>2.7</param.version>
     <param.products.name />
     <param.products.id />
     <param.products.version />
@@ -20,7 +21,6 @@
       <param.email />
       <param.icon />
       <param.icons />
-      <param.version />
       <param.products.name />
       <param.products.id />
       <param.products.version />
@@ -30,7 +30,10 @@
     <fileset.main>
       <file>${PROJECT_ROOT}\MDO34Gui.mlapp</file>
     </fileset.main>
-    <fileset.depfun />
+    <fileset.depfun>
+      <file>C:\Users\NanoPC\AppData\Roaming\MathWorks\MATLAB Add-Ons\Apps\MDO34ExtGenSignalAnalyzer\Program Files\MATLAB\R2022a\toolbox\local\userpath.m</file>
+      <file>C:\Users\NanoPC\Documents\MATLAB\settings.txt</file>
+    </fileset.depfun>
     <fileset.resources />
     <fileset.package />
     <build-deliverables>
