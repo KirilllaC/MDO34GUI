@@ -11,6 +11,6 @@ It should be also installed prior to use:
 - Instrument Control Toolbox Support Package for R&S VISA Interface
 - Drivers and/or specific SW for a GPIB adapter you are using
 
-The directions I used for downloading and installing necessary drivers are in the file "Tek MDO34 Software.pdf".  I think there may be more steps than necessary in the file, but it worked for me.
+If this is not enough, please also check the file "Tek MDO34 Software.pdf".
 
 More information and directions for using the app that was used a base for my program are available at: http://www.swarthmore.edu/NatSci/echeeve1/Ref/MDO34Gui/
